@@ -23,8 +23,8 @@
     @yield('content')
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    {{HTML::script('bower_components/jquery/dist/jquery.min.js')}}
+    {{ HTML::script('bower_components/jquery/dist/jquery.min.js') }}
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    {{HTML::script('bower_components/bootstrap/dist/js/bootstrap.min.js')}}
+    {{ HTML::script('bower_components/bootstrap/dist/js/bootstrap.min.js') }}
   </body>
 </html>
